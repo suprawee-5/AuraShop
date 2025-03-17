@@ -1,13 +1,14 @@
-import { Text, View } from 'react-native'
+// rnf
 import React from 'react'
-import { SafeAreaView } from 'react-native-safe-area-context'
+import { View, Text } from 'react-native'
+import { SafeAreaView } from "react-native-safe-area-context"
 
-export default function TapCreate() {
+export default function Create() {
   return (
-   <SafeAreaView style={{flex:1}}>
-    <View style={{flex:1, justifyContent:"center",alignItems:"center"}}>
-      <Text>setting</Text>
-    </View>
+    <SafeAreaView style={{ flex: 1 }}>
+      <View style={{flex: 1, justifyContent: "center", alignItems: "center"}}>
+        <Text>Create Screen</Text>
+      </View>
     </SafeAreaView>
   )
 }

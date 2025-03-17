@@ -5,7 +5,7 @@ import React from "react"
 export default function AuthLayout() {
   return (
     <>
-      {/* Custom Statusbar */}
+    
       <StatusBar style="light" backgroundColor="#161622" />
       <Stack>
         <Stack.Screen name="login" options={{ headerShown: false }} />
